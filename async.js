@@ -1,7 +1,7 @@
 function async(message, delay) {
     return new Promise((resolve) => {
         resolve(message);
-      }, delay);
+      });
   }
   async function task() {
     try {
